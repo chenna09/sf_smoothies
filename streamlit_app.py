@@ -9,7 +9,7 @@ def auto_function():
         if time.time() - st.session_state.last_activity_timestamp > timeout_seconds:
             st.logout() # Logs out the user and clears session state
 
-steamlit.title("My New Healthy Diner")
+# steamlit.title("My New Healthy Diner")
 # Write directly to the app
 st.title(f":cup_with_straw: Customize Your Smoothie :cup_with_straw:")
 st.write(
