@@ -1,9 +1,10 @@
+[connections.snowflake]
+connection_name = "snowflake"
 
 [connections.snowflake]
 account = "xxxxxxx-xxxxxxx"
-user = "xxx"
-private_key_file = "../xxx/xxx.p8"
-role = "xxx"
-warehouse = "xxx"
-database = "xxx"
-schema = "xxx"
+user = "Chenna"
+role = "SYSADMIN"
+warehouse = "CMPUTE_WH"
+database = "SMOOTIES"
+schema = "PUBLIC"
